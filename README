@@ -1,0 +1,12 @@
+This program simulates the BFS process
+
+You should sava your initiation data of the graph in a file "input.txt". And run this program use redirect like this: BFS < input.txt
+The format of "input.txt" is as follows:
+n p r
+node another_Node
+node another_Node
+......
+where n is the number of nodes in the graph and the index start with 1
+	  p is the number of edges in the graph and they are listed with node another_Node
+	  r is the source given to the BFS process
+Note: here we assume the graph is undirected
